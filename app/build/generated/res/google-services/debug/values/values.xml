@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">610547818056-ervpvlal5i9kbe48nai1srgtd97kjal4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://etqan-17413.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">610547818056</string>
+    <string name="google_api_key" translatable="false">AIzaSyB0CDEa3-SMlDTRA8mquD8JMDnbW9K5xIA</string>
+    <string name="google_app_id" translatable="false">1:610547818056:android:1ff3cb214a651df5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0CDEa3-SMlDTRA8mquD8JMDnbW9K5xIA</string>
+    <string name="google_storage_bucket" translatable="false">etqan-17413.appspot.com</string>
+    <string name="project_id" translatable="false">etqan-17413</string>
+</resources>

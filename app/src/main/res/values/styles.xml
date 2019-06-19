@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/light_gray</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+
+    </style>
+
+
+    <style name="Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--gggg-->
+    <style name="Fort.EditText.Style" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <!--<item name="android:textSize">13sp</item>-->
+    </style>
+    <style name="Fort.TextInputLayout.ET" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- bottom line color -->
+        <item name="colorControlNormal">@color/pf_light_gray</item>
+        <item name="colorControlActivated">@android:color/darker_gray</item>
+        <item name="colorControlHighlight">@android:color/darker_gray</item>
+        <item name="android:layout_marginBottom">-28dp</item>
+        <!--<item name="android:paddingTop">5dp</item>-->
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+    </style>
+    <style name="Fort.TextInputLayout.TextAppearance" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/pf_light_gray</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Theme.Transparent" parent="Theme.Transparent.NoTittle">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.Transparent.NoTittle" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    <style name="error_appearance">
+        <item name="android:textSize">11sp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/pf_red</item>
+        <item name="android:layout_marginTop">-15dp</item>
+    </style>
+    <style name="error_appearanceAR">
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/pf_red</item>
+        <item name="android:layout_marginTop">-3dp</item>
+    </style>
+    <style name="error_appearanceTL">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">@color/pf_red</item>
+    </style>
+</resources>

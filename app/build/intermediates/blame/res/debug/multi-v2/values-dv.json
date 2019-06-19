@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Courses\\New Project\\Magd App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-dv\\values-dv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Youssef Seddik\\.gradle\\caches\\transforms-1\\files-1.1\\fonticon-0.1.8.aar\\6a1b40c5f29170742da97d2c38d890b4\\res\\values-dv\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "165",
+                        "endColumns": "49",
+                        "endOffsets": "210"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                }
+            ]
+        }
+    ]
+}

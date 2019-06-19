@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/etqanlogo1" />
+
+    <TextView
+        android:id="@+id/slide_Arabic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="تهدف مؤسسة اتقان
+الي تلبية احتياجاتكم من خدمة  تنظيف المنازل "
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/slide_English"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_Arabic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Etqan Foundation aims
+To meet your needs of home cleaning service"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="@color/backg" />
+
+</RelativeLayout>

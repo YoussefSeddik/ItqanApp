@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alryada.etqan.Fragments.MapFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/etSearchPlaces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:hint="@string/txt_search_places"
+            android:padding="4dp"
+            android:visibility="gone"/>
+
+        <fragment
+            android:id="@+id/frgAutoComplete"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imgLocation"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_location"
+        android:textColor="@color/app_blue"
+        android:textStyle="bold"
+        android:tint="@color/app_red"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray">
+
+        <Button
+            android:id="@+id/btnOneTimeOrder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight=".5"
+            android:background="@color/app_red"
+            android:text="@string/txt_one_time"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnSubscriptionOrder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@color/app_red"
+            android:text="@string/txt_subscription"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>

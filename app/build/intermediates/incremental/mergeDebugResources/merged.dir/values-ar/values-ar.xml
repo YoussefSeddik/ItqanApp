@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="months">
+        <item>إختر مدة الاشتراك</item>
+        <item>1 شهر</item>
+        <item>2 شهر</item>
+        <item>3 شهر</item>
+        <item>4 شهر</item>
+        <item>5 شهر</item>
+        <item>6 شهر</item>
+
+    </string-array>
+    <string-array name="payment_method_types">
+        <item>اختر طريقة الدفع</item>
+        <item>كاش</item>
+        <item>بطاقة ائتمان</item>
+    </string-array>
+    <bool name="layout_direction_rtl">true</bool>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="accept">أوافق</string>
+    <string name="action_activate">تفعيل </string>
+    <string name="action_cancel">الغاء </string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_rate">قيم</string>
+    <string name="action_save">حفظ</string>
+    <string name="app_conditions">
+تعتبر اتفاقية الاستخدام بمثابة اتفاقية عامة تحكم ضوابط التعامل بين المستخدم والتطبيق، وتسري على جميع الخدمات التي يقدمها التطبيق للمستخدم."
+
+الشروط العامة:
+يلتزم المستخدم بجميع الشروط الواردة في هذه الاتفاقية لضمان استعمال الخدمة، كما أن استمرار استعمال الخدمة يعتبر موافقة ضمنية من جهة المستخدم على بنود اتفاقية الاستخدام.
+يلتزم المستخدم بالحفاظ على سرية بيانات الحساب، والتي تحتوي على رقم الهوية والتي تمثل أسم المستخدم ورقم الجوال الرئيسي للمستخدم والذي يمثل كلمة المرور، كما يعتبر مسئولا مسئولية كاملة عن أي استعمال للخدمة يتم من خلال اسم المستخدم وكلمة السر الخاصة به سواء تم ذلك من طرفه أو من قبل آخرين وبدون أي مسؤولية على المؤسسة.
+وذلك لإن طريقة تفعيل الحساب الرسمية هي عن طريق أرسال رساله نصية تحتوي على كود تفعيل لجوال المستخدم والذي يمثل رقمه السري في التطبيق.
+"
+    </string>
+    <string name="app_name"> إتقان </string>
+    <string name="arabic_lan">العربية</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تمكين"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="credit_card_cvv_hint">رمز التحقق</string>
+    <string name="credit_card_expiredate_hint">تاريخ الإنتهاء</string>
+    <string name="credit_card_name_hint">إسم حامل البطاقة</string>
+    <string name="credit_card_number_hint">رقم البطاقة</string>
+    <string name="credit_card_pay_btn">إدفع</string>
+    <string name="credit_card_price">السعر</string>
+    <string name="credit_card_title">بطاقة الإئتمان </string>
+    <string name="english_lan">English</string>
+    <string name="err_change_password">خطأ فى تغيير كلمة السر </string>
+    <string name="err_choose_gender">من فضلك اختر النوع</string>
+    <string name="err_choose_time">من فضلك اختر وقت</string>
+    <string name="err_chose_date">من فضلك اختر تاريخ</string>
+    <string name="err_data">خطأ فى تحميل البيانات</string>
+    <string name="err_day_selected">اختر يوم واحد على الاقل</string>
+    <string name="err_employees_num">ادخل عدد الموظفين</string>
+    <string name="err_getting_data">خطأ فى تحميل البيانات</string>
+    <string name="err_new_password">ادخل كلمة السر الجديدة</string>
+    <string name="err_rate">من فضلك قيمهم كلهم</string>
+    <string name="err_rate_comment">من فضلك اضف تعليقك</string>
+    <string name="err_save_data">خطأ فى حفظ البيانات</string>
+    <string name="err_services">خطأ فى تحميل البياناتs</string>
+    <string name="err_updating_data">خطأ فى تحديث البياات</string>
+    <string name="error_accept_terms">من فضلك وافق على الشروط </string>
+    <string name="error_address"> ادخل العنوان</string>
+    <string name="error_current_orders">لا يوجد طلبات حالية</string>
+    <string name="error_email_validation">من فضلك ادخل ايميل صحيح</string>
+    <string name="error_getting_data">خطأ فى تحميل البيانات</string>
+    <string name="error_mobile">ادخل رقم محمول صحيح</string>
+    <string name="error_name"> ادخل الاسم</string>
+    <string name="error_name_length">الإسم اقل من 3</string>
+    <string name="error_nationality">خطأ فى تحميل البيانات</string>
+    <string name="error_password">من فضلك ادخل كلمة السر</string>
+    <string name="error_password_lenght">خطأ الباسورد أقل من 6</string>
+    <string name="error_password_not_match">كلمة السر غير متطابقة</string>
+    <string name="error_past_orders">لا يوجد طلبات سابقة</string>
+    <string name="error_phone">ادخل رقم ارضي صحيح</string>
+    <string name="error_phone_lenght">خطأ رقم التليفون أقل من 8</string>
+    <string name="error_saving_data">خطأ فى حفظ البيانات</string>
+    <string name="error_signing_in">خطأ فى تسجيل الدخول </string>
+    <string name="error_signing_up">حدث خطا فى التسجيل</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="forget_password">نسيت كلمة المرور ؟</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_address">العنوان</string>
+    <string name="hint_confirm_password">تأكيد كلمة السر</string>
+    <string name="hint_email">البريد الالكترونى</string>
+    <string name="hint_mobile">الموبايل</string>
+    <string name="hint_new_password">كلمة سر جديدة</string>
+    <string name="hint_password">كلمة السر</string>
+    <string name="hint_user_name">الاسم</string>
+    <string name="info_complete_order">من فضلك كمل بيانات الطلب</string>
+    <string name="loading_data_error">الموقع غير مفعل</string>
+    <string name="loading_text">جارى التحميل…</string>
+    <string name="location_closed_msg">من فضلك فعل الموقع </string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="make_order">طلب جديد</string>
+    <string name="map_apis_key">AIzaSyDu4hMbiE1aHUa4gHZpO3Y6BK7t0cGfa00</string>
+    <string name="mdtp_date_v1_monthyear">MMMM yyyy</string>
+    <string name="mdtp_date_v2_daymonthyear">EEE، dd MMM</string>
+    <string msgid="3968620852217927702" name="mdtp_day_picker_description">"شبكة الشهر مكونة من الأيام"</string>
+    <string msgid="6908431551612331381" name="mdtp_deleted_key">"تم حذف <ns1:g id="KEY">%1$s</ns1:g>"</string>
+    <string msgid="7007948707597430919" name="mdtp_done_label">"تم"</string>
+    <string msgid="7586639618712934060" name="mdtp_hour_picker_description">"شريط التمرير الدائري للساعات"</string>
+    <string msgid="2674929164900463786" name="mdtp_item_is_selected">"تم تحديد <ns1:g id="ITEM">%1$s</ns1:g>"</string>
+    <string msgid="6024811202872705251" name="mdtp_minute_picker_description">"شريط التمرير الدائري للدقائق"</string>
+    <string msgid="3973338219107019769" name="mdtp_select_day">"تحديد الشهر واليوم"</string>
+    <string msgid="7651068754188418859" name="mdtp_select_hours">"تحديد الساعات"</string>
+    <string msgid="8327182090226828481" name="mdtp_select_minutes">"تحديد الدقائق"</string>
+    <string msgid="2603330600102539372" name="mdtp_select_year">"تحديد العام"</string>
+    <string msgid="6963340404644587098" name="mdtp_year_picker_description">"قائمة الأعوام"</string>
+    <string name="msg_cancel">لا, شكرا!</string>
+    <string name="msg_open_gps">من فضلك افتح الموقع </string>
+    <string name="msg_rejection">"اذا تم الرفض
+        لن تستطيع استخدام هذه الخدمة   /n/n  من فضلك افتح الاعدادت - الاذونات - الموقع" </string>
+    <string name="msg_turn_GPS">يجب عليك فتح الموقع </string>
+    <string name="msg_turn_location">فتح المكان</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="no_available_data">لا يوجد بيانات</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="pf_app_name">FortPaymentSDK</string>
+    <string name="pf_cancel_cvv_amex_length">   يجب أن تتكون قيمة التحقق من البطاقة من<em>4 أرقام.</em></string>
+    <string name="pf_cancel_cvv_length"> يجب أن تتكون قيمة التحقق من البطاقة من  <em>3 أرقام.</em></string>
+    <string name="pf_cancel_exp_date_in_past"> التاريخ الذي قمت بإدخاله <em>في الماضي!</em></string>
+    <string name="pf_cancel_exp_date_invalid"> التاريخ الذي قمت بإدخاله <em>غير صحيح!</em></string>
+    <string name="pf_cancel_payment_btn_no">لا</string>
+    <string name="pf_cancel_payment_btn_yes">نعم</string>
+    <string name="pf_cancel_payment_msg">إلغاء هذه الدفعة؟</string>
+    <string name="pf_cancel_required_field">هذا الحقل مطلوب ولا يمكن تركه فارغاً</string>
+    <string name="pf_canceled_by_user">تم الغاء العملية من المشتري</string>
+    <string name="pf_card_number_hint">رقم البطاقة</string>
+    <string name="pf_cardholder_name_hint">اسم حامل البطاقة</string>
+    <string name="pf_cc_title_hint">بطاقة ائتمانية</string>
+    <string name="pf_cvv_hint">قيمة التحقق من البطاقة</string>
+    <string name="pf_errors_card_number_amex_length"> يجب أن يتكون رقم البطاقة من<em>15 رقم.</em></string>
+    <string name="pf_errors_card_number_invalid">رقم البطاقة<em>غير صحيح.</em></string>
+    <string name="pf_errors_card_number_length"> يجب أن يتكون رقم البطاقة من<em>16 رقم.</em></string>
+    <string name="pf_errors_card_number_mismatch_po">نوع البطاقة الائتمانية الذي قمت بإدخاله لا يطابق خيار الدفع الذي اخترته.</string>
+    <string name="pf_expiry_date_hint">تاريخ انتهاء الصلاحية</string>
+    <string name="pf_expiry_date_value">MM/YY</string>
+    <string name="pf_init_conn_hint">بدء اتصال آمن</string>
+    <string name="pf_no_back_tnx_processing">يرجى الإنتظار، الحركة قيد المعالجة</string>
+    <string name="pf_no_connection">يرجى التأكد من أنك متصل بالإنترنت</string>
+    <string name="pf_pay_btn_hint">إدفع</string>
+    <string name="pf_remember_me">تذكرني</string>
+    <string name="pf_resp_page_failed">عملية غير ناجحة</string>
+    <string name="pf_resp_page_great">حركة ناجحة</string>
+    <string name="pf_technical_problem">مشكلة تقنية</string>
+    <string name="pf_wifi_settings">الإعدادات</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"مسح البحث"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"البحث"</string>
+    <string name="privacy_policies">سياسة الخصوصية الخاصة بك</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="see_more">رؤية المزيد...</string>
+    <string name="sign_up">تسجيل جديد </string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="suc_profile_data">تم تعديل الملف الشخصى بنجاح</string>
+    <string name="suc_rate_added">تم اضافة التقييم بنجاح</string>
+    <string name="suc_update_password">تم تغيير كلمة السر بنجاح</string>
+    <string name="success_saving_data">تم حفظ البيانات بنجاح</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_change_password">تغيير كلمة السر</string>
+    <string name="title_date_details">تفاصيل التاريخ</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_notifications">التنبيهات</string>
+    <string name="title_profile">الملف الشخصى</string>
+    <string name="title_rate_order">قيم الاوردر</string>
+    <string name="title_service_details">تفاصيل الخدمة</string>
+    <string name="title_services">الخدمات</string>
+    <string name="title_subscription_duration">مدة الاشتراك</string>
+    <string name="title_turn_GPS">فتح الموقع</string>
+    <string name="txt_about">عنا</string>
+    <string name="txt_accept_terms">اوافق على كل </string>
+    <string name="txt_add_credit_card">اضف بطاقة جديدة</string>
+    <string name="txt_browse_app">تصفح التطبيق</string>
+    <string name="txt_cancel">الغاء</string>
+    <string name="txt_cash">كاش</string>
+    <string name="txt_choose_date">اختر تاريخ</string>
+    <string name="txt_choose_days">إختر الايام</string>
+    <string name="txt_choose_duration">إختر مدة الاشتراك</string>
+    <string name="txt_choose_nationality">من فضلك اختر جنسية</string>
+    <string name="txt_choose_service">من فضلك اختر خدمة</string>
+    <string name="txt_choose_time">اختر وقت</string>
+    <string name="txt_comment">تعليق</string>
+    <string name="txt_confirm">تأكيد</string>
+    <string name="txt_date">التاريخ</string>
+    <string name="txt_days_selected">الايام المختارة</string>
+    <string name="txt_detect_days">تحديد ايام الزيارة</string>
+    <string name="txt_detect_duration">تحديد مدة الزيارة</string>
+    <string name="txt_detect_location">تحديد موقع الزيارة</string>
+    <string name="txt_detect_time">تحديد ساعة الزيارة</string>
+    <string name="txt_discover_app">اكتشف التطبيق الآن</string>
+    <string name="txt_distance">المسافة</string>
+    <string name="txt_done">تم</string>
+    <string name="txt_dont_have_account">ليس لديك حساب</string>
+    <string name="txt_dummay">selgon</string>
+    <string name="txt_duration">المدة:</string>
+    <string name="txt_err_old_password">ادخل كلمة السر القديمة</string>
+    <string name="txt_female">انثى</string>
+    <string name="txt_finish">إنهاء</string>
+    <string name="txt_for_prices">تبدأ الاسعار الخاصة بنا \nمن 250 ريال للاربع زيارات لمدة
+        شهر</string>
+    <string name="txt_gender">النوع</string>
+    <string name="txt_getting_user_data">تحميل بيانات المستخدم</string>
+    <string name="txt_home">الرئيسية</string>
+    <string name="txt_hours">الساعات</string>
+    <string name="txt_language">Langauge</string>
+    <string name="txt_location">المكان</string>
+    <string name="txt_male">ذكر</string>
+    <string name="txt_must_sign">يجب تسجيل الدخول</string>
+    <string name="txt_nationality">الجنسية</string>
+    <string name="txt_new_password">كلمة السر الجديدة</string>
+    <string name="txt_number_of_employees">عدد الموظفين</string>
+    <string name="txt_old_password">كلمة السر القديمة</string>
+    <string name="txt_one_time">مرة واحدة</string>
+    <string name="txt_ontime">فى الوقت</string>
+    <string name="txt_or">او</string>
+    <string name="txt_order_siccess">تم الطلب بنجاح</string>
+    <string name="txt_order_waring">يمكنك تغيير الوقت او التاريخ للطلب عن طريق الاتصال
+        بخدمة العملاء علي الرقم 002965 ولكن قبل يومين من تاريخ الطلب
+    مسؤلنا سيتصل بك لتحصيل المال
+    </string>
+    <string name="txt_orders">الطلبات</string>
+    <string name="txt_pay_with">ادفع ب</string>
+    <string name="txt_payment_methods">بطاقات الدفع الحالية</string>
+    <string name="txt_phone">التليفون</string>
+    <string name="txt_price">السعر</string>
+    <string name="txt_prices">الاسعار</string>
+    <string name="txt_profile_discover">من فضلك قم بالتسجيل لتري ملفك الشخصى</string>
+    <string name="txt_quality">الجودة</string>
+    <string name="txt_rate_app">قيم البرنامج</string>
+    <string name="txt_rep_order">مسؤلنا سيتصل بك لتحصيل المال</string>
+    <string name="txt_sar">ريال</string>
+    <string name="txt_search_places">بحث بالاماكن</string>
+    <string name="txt_selgon">تهدف مؤسسة اتقان الي تلبية احتياجتكم من تنظيف منزلى حيث يمكنكم حجز عاملات نظافة بطريقة سهلة وسريعة</string>
+    <string name="txt_service">الخدمة</string>
+    <string name="txt_service_notice">من فضلك اختر الخدمة</string>
+    <string name="txt_share_app">شارك البرنامج</string>
+    <string name="txt_soon">قريبا</string>
+    <string name="txt_start_time">وقت البدء:</string>
+    <string name="txt_status">الحالة</string>
+    <string name="txt_submit">ارسال</string>
+    <string name="txt_subscription">اشتراك</string>
+    <string name="txt_support">مؤسسةالاعمال المتقنة تدعم فقط منطقة الرياض وسيتم دعم باقى مناطق المملكة قريبا</string>
+    <string name="txt_team">الفريق</string>
+    <string name="txt_team_info">الفريق لابد ان يكون 3</string>
+    <string name="txt_terms_and_condintions">الشروط</string>
+    <string name="txt_total_price">السعر الكلى</string>
+    <string name="txt_visit_details">التفاصيل</string>
+    <string name="txt_waiting">الانتظار</string>
+    <string name="txt_wallet">المحفظة</string>
+    <string name="txt_weeks">الاسابيع</string>
+    <string name="txt_work_counter">ساعات العمل</string>
+</resources>

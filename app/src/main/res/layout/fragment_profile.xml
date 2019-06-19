@@ -1,0 +1,272 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/app_red_login"/>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_profile_logo"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/etUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/button_background"
+                    android:drawableStart="@drawable/ic_person_black_24dp"
+                    android:enabled="false"
+                    android:hint="@string/hint_user_name"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="8dp"
+                    android:textColor="@color/app_red"
+                    app:met_baseColor="@color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/hint_user_name"
+                    app:met_primaryColor="@color/app_red_dark"
+                    app:met_textColorHint="@color/app_red"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/button_background"
+                    android:drawableStart="@drawable/ic_email_black_24dp"
+                    android:enabled="false"
+                    android:hint="@string/hint_email"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="8dp"
+                    android:textColor="@color/app_red"
+                    app:met_baseColor="@color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/hint_email"
+                    app:met_primaryColor="@color/app_red_dark"
+                    app:met_textColorHint="@color/app_red"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/button_background"
+                    android:drawableStart="@drawable/ic_location_on_black_24dp"
+                    android:enabled="false"
+                    android:hint="@string/hint_address"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="8dp"
+                    android:textColor="@color/app_red"
+                    app:met_baseColor="@color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/hint_address"
+                    app:met_primaryColor="@color/app_red_dark"
+                    app:met_textColorHint="@color/app_red"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/etMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/button_background"
+                    android:drawableStart="@drawable/ic_mobile_black_24dp"
+                    android:enabled="false"
+                    android:hint="@string/hint_mobile"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="8dp"
+                    android:textColor="@color/app_red"
+                    app:met_baseColor="@color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/hint_mobile"
+                    app:met_primaryColor="@color/app_red_dark"
+                    app:met_textColorHint="@color/app_red"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/button_background"
+                    android:drawableStart="@drawable/ic_phone_black_24dp"
+                    android:enabled="false"
+                    android:hint="@string/txt_phone"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="8dp"
+                    android:textColor="@color/app_red"
+                    app:met_baseColor="@color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelText="@string/txt_phone"
+                    app:met_primaryColor="@color/app_red_dark"
+                    app:met_textColorHint="@color/app_red"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/etOldPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_toStartOf="@+id/imgEditPassword"
+                        android:background="@drawable/button_background"
+                        android:enabled="false"
+                        android:hint="@string/txt_old_password"
+                        android:inputType="textPassword"
+                        android:paddingStart="8dp"
+                        android:textColor="@color/app_red"
+                        app:met_baseColor="@color/black"
+                        app:met_floatingLabel="highlight"
+                        app:met_floatingLabelText="@string/hint_password"
+                        app:met_primaryColor="@color/app_red_dark"
+                        app:met_textColorHint="@color/app_red"/>
+
+                    <ImageView
+                        android:id="@+id/imgEditPassword"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="4dp"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_edit"/>
+                </RelativeLayout>
+
+                <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+                <!--android:id="@+id/etNewPass"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="8dp"-->
+                <!--android:background="@drawable/button_background"-->
+                <!--android:enabled="false"-->
+                <!--android:hint="@string/txt_new_password"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:paddingStart="8dp"-->
+                <!--android:textColor="@color/app_red"-->
+                <!--app:met_baseColor="@color/app_red"-->
+                <!--app:met_floatingLabel="highlight"-->
+                <!--app:met_floatingLabelText="@string/txt_new_password"-->
+                <!--app:met_primaryColor="@color/app_red"-->
+                <!--app:met_textColorHint="@color/app_red"/>-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="@string/txt_gender"
+                    android:textSize="18sp"/>
+
+                <RadioGroup
+                    android:id="@+id/radioGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:paddingEnd="8dp"
+                        android:text="@string/txt_male"/>
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:text="@string/txt_female"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/rounded_orange"
+                    android:text="@string/action_save"
+                    android:textColor="@color/white"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:text="@string/title_profile"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:id="@+id/imgEdit"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_toEndOf="@id/profile"
+                android:src="@drawable/ic_edit"
+                android:tint="@color/app_red"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

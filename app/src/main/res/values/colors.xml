@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/app_red</color>
+    <color name="colorPrimaryDark">@color/app_red</color>
+    <color name="colorAccent">@color/app_red</color>
+
+    <color name="app_blue">#047CFF</color>
+    <color name="app_red">#FF8285</color>
+    <color name="app_red_login">#FF8487</color>
+    <color name="app_red_dark">#ed393e</color>
+
+    <color name="backg">#FF7175</color>
+    <color name="WhGray">#F4F4F4</color>
+
+    <color name="colorPrimaryTrans">#002E5B</color>
+    <color name="red">#fc2833</color>
+    <color name="light_red">#f47178</color>
+
+    <color name="blue">#0354a6</color>
+    <color name="light_blue">#596cbe</color>
+    <color name="dark_blue">#172038</color>
+    <color name="logo_blue">#7BCADC</color>
+    <color name="facebook_blue">#3A559F</color>
+    <color name="light_green">#0098BE</color>
+
+    <color name="orange">#ffd43d</color>
+    <color name="icon_gray">#9FA6AB</color>
+
+    <color name="yellow">#fec50b</color>
+    <color name="green">#40BB28</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#ffffff</color>
+    <color name="gray">#e2e2e2</color>
+    <color name="grey">#efefef</color>
+    <color name="littel_grey">#bfbfbf</color>
+    <color name="light_gray">#f4f4f4</color>
+    <color name="black">#000000</color>
+    <color name="little_black">#3b3939</color>
+    <color name="light_black">#8b8a8a</color>
+
+    <color name="pf_gray">#3C3C3D</color>
+    <color name="pf_green">#15AF68</color>
+    <color name="pf_light_gray">#F2F4F8</color>
+    <color name="pf_light_yellow">#FFD460</color>
+    <color name="pf_red">#990000</color>
+
+
+</resources>

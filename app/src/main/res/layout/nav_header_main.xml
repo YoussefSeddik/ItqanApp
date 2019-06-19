@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relNavHeader"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/app_red"
+    android:paddingBottom="16dp"
+    android:paddingTop="48dp">
+
+    <ImageView
+        android:id="@+id/imgUserPhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        app:srcCompat="@drawable/logo"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/imgUserPhoto"
+        >
+
+        <ImageView
+            android:id="@+id/profileImg"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/ic_profile"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/profileImg"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:text="- "/>
+
+        <ImageView
+            android:id="@+id/profilePhone"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/profileImg"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_phone"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/txtUserPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtUserName"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/profilePhone"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="-"/>
+
+        <ImageView
+            android:id="@+id/profileLocation"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtUserPhone"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_location"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/txtUserLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtUserPhone"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@id/profileLocation"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="-"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

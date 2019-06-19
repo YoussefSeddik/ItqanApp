@@ -1,0 +1,278 @@
+<resources>
+    <string name="app_name"> Etqan </string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- START global strings -->
+    <string name="map_apis_key">AIzaSyDu4hMbiE1aHUa4gHZpO3Y6BK7t0cGfa00</string>
+    <!--<string name="map_apis_key">AIzaSyD0lfYeXW-JrHWuMjAUou4opWtpo4fWw1c</string>-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- END -->
+
+    <!-- Strings related to login -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_new_password">Password</string>
+    <string name="hint_confirm_password">Confrim Password</string>
+
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up </string>
+    <string name="forget_password">Forget password?</string>
+
+
+    <string name="error_email_validation">please enter a valid email</string>
+    <string name="error_password">please enter a password</string>
+    <string name="error_password_not_match">please enter the same password</string>
+    <string name="error_signing_up">Error happen signing up </string>
+    <string name="error_phone_lenght">Error phone less than 8 </string>
+    <string name="error_password_lenght">Error password less than 6</string>
+
+
+    <string name="error_signing_in">Error sign in</string>
+    <string name="error_nationality">Error getting nationalities</string>
+    <string name="err_services">Error getting Services</string>
+
+    <string name="error_getting_data">Error getting data</string>
+    <string name="error_saving_data">Error saving data</string>
+
+    <string name="success_saving_data">Data Saved successful</string>
+
+    <string name="error_past_orders">There is no past Orders</string>
+    <string name="error_current_orders">There is no current Orders</string>
+
+    <string name="error_name">Enter Name</string>
+    <string name="error_name_length">Name less than 3</string>
+    <string name="error_address">Enter Address</string>
+    <string name="error_mobile">Enter valid Mobile</string>
+    <string name="error_phone">Enter valid Phone</string>
+
+
+    <string name="location_closed_msg">Please enable location</string>
+    <string name="action_activate">Activate</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="loading_data_error">Location not enabled</string>
+
+    <string name="loading_text">Loading…</string>
+
+    <string name="msg_rejection">"If you reject permission,you can not use this service\n\nPlease turn on
+        permissions at [Setting] > [Permission] -> [location]" </string>
+    <string name="hint_user_name">User name</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_address">Address</string>
+    <string name="txt_accept_terms">Accept all </string>
+    <string name="txt_terms_and_condintions"> Terms and condintions</string>
+    <string name="error_accept_terms">please accept terms </string>
+    <string name="msg_open_gps">Please open GPS to get your location</string>
+
+    <string name="title_turn_GPS">Turn on GPS</string>
+    <string name="msg_turn_GPS">You must turn on GPS to be able to continue</string>
+    <string name="msg_turn_location">Turn On Location</string>
+    <string name="msg_cancel">No,Thanks!</string>
+
+    <string name="title_home">Home</string>
+    <string name="txt_orders">Orders</string>
+    <string name="txt_rate_app">Rate APP</string>
+    <string name="txt_about">About</string>
+    <string name="txt_language">اللغة</string>
+    <string name="log_out">Log out</string>
+    <string name="txt_home">Home</string>
+
+    <string name="arabic_lan">العربية</string>
+    <string name="english_lan">English</string>
+    <string name="change_language">change language</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_wallet">Wallet</string>
+    <string name="no_available_data">No available data</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="txt_share_app">Share app</string>
+    <string name="title_profile">Profile</string>
+    <string name="txt_payment_methods">Current payment methods</string>
+    <string name="action_edit">Edit</string>
+    <string name="txt_service">Service</string>
+    <string name="txt_location">Location</string>
+    <string name="txt_visit_details">Visit details</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_pay_with">Pay with</string>
+    <string name="txt_total_price">Total price : </string>
+    <string name="make_order">Make order</string>
+    <string name="title_date_details">Make order</string>
+    <string name="txt_choose_date">Choose Date</string>
+    <string name="txt_duration">Duration:</string>
+    <string name="txt_start_time">Start Time:</string>
+    <string name="txt_done">Done</string>
+    <string name="title_services">Services</string>
+    <string name="txt_choose_service">please choose service</string>
+    <string name="title_service_details">Service Details</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="txt_number_of_employees">Number of Employees</string>
+    <string name="txt_cash">Cash</string>
+    <string name="txt_nationality">Nationality</string>
+    <string name="txt_search_places">Search places</string>
+    <string name="txt_old_password">Old Password</string>
+    <string name="txt_new_password">New Password</string>
+    <string name="action_save">Save</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="err_change_password">Error change password</string>
+    <string name="suc_update_password">Password updated Successfully</string>
+    <string name="txt_err_old_password">enter old password</string>
+    <string name="err_new_password">enter new password</string>
+    <string name="txt_add_credit_card">Add Credit Card</string>
+    <string name="err_employees_num">Enter number of employees</string>
+    <string name="info_complete_order">Please complete order info</string>
+    <string name="txt_order_siccess">Ordered successfully</string>
+    <string name="suc_profile_data">Profile Data updated</string>
+    <string name="err_updating_data">error updating data</string>
+    <string name="txt_sar">Sar</string>
+    <string name="action_rate">Rate</string>
+    <string name="txt_ontime">OnTime</string>
+    <string name="txt_comment">Comment</string>
+    <string name="txt_quality">Quality</string>
+    <string name="txt_team">Team</string>
+    <string name="title_rate_order">Rate Order</string>
+    <string name="err_rate">Please rate all of them</string>
+    <string name="err_rate_comment">please add your comment</string>
+    <string name="suc_rate_added">Rate added successfully</string>
+    <string name="err_save_data">Error saving data</string>
+    <string name="txt_status">Status</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_waiting">Waiting</string>
+    <string name="txt_distance">Distance</string>
+    <string name="txt_work_counter">Work Counter</string>
+    <string name="txt_choose_nationality">please choose National</string>
+    <string name="txt_hours">hours</string>
+
+    <string name="err_getting_data">Error getting data</string>
+
+    <string name="txt_getting_user_data">Getting user Data</string>
+    <string name="txt_one_time">One Time</string>
+    <string name="txt_subscription">Subscription</string>
+    <string name="txt_soon">Soon</string>
+    <string name="err_chose_date">please choose date</string>
+    <string name="err_choose_time">please choose time</string>
+    <string name="err_choose_gender">please choose gender</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_choose_time">choose time</string>
+    <string name="txt_price">Price</string>
+
+    <string name="txt_dummay">selgon</string>
+    <string name="txt_detect_location">تحديد موقع الزيارة</string>
+    <string name="txt_detect_time">تحديد ساعة الزيارة</string>
+    <string name="txt_detect_days">تحديد ايام الزيارة</string>
+    <string name="txt_prices">الاسعار</string>
+    <string name="txt_for_prices">تبدأ الاسعار الخاصة بنا من 250 ريال للاربع زيارات لمدة شهر</string>
+    <string name="txt_support">مؤسسةالاعمال المتقنة تدعم فقط منطقة الرياض وسيتم دعم باقى مناطق المملكة قريبا</string>
+    <string name="txt_browse_app">تصفح التطبيق</string>
+    <string name="txt_detect_duration">تحديد مدة الزيارة</string>
+    <string name="txt_selgon">تهدف مؤسسة اتقان الي تلبية احتياجتكم من تنظيف منزلى حيث يمكنكم حجز عاملات نظافة بطريقة سهلة وسريعة</string>
+    <string name="txt_team_info">Team Must be 3</string>
+    <string name="txt_must_sign">you must sign in</string>
+    <string name="err_day_selected">Please choose at least one day</string>
+    <string name="txt_choose_duration">Choose Subscription duration</string>
+    <string name="title_subscription_duration">Subscription Duration</string>
+    <string name="txt_choose_days">Choose days</string>
+    <string name="txt_discover_app">Discover App now</string>
+    <string name="txt_dont_have_account">if you don\'t have account</string>
+    <string name="txt_or">OR</string>
+    <string name="txt_order_waring">you can change date or time of orders by calling customer service in this number 002965 but it must before two days from order date
+our representative will connect to you or we will collect the money when we come to you
+    </string>
+    <string name="txt_days_selected">Days selected</string>
+    <string name="txt_weeks">weeks</string>
+    <string name="err_data">Error loading data</string>
+    <string name="txt_rep_order">our representative will connect to you or we will collect the money when we come to you</string>
+
+    <string name="txt_profile_discover">Please signup to show your profile</string>
+
+    <string name="txt_finish">FINISH</string>
+
+    <!--<string name="make_order" translatable="false">Make order</string>-->
+
+    <string name="txt_service_notice">Please select service</string>
+
+    <string name="privacy_policies">To see your privacy policies</string>
+    <string name="see_more">See more...</string>
+    <string name="accept">Accept</string>
+
+    <string name="app_conditions">
+تعتبر اتفاقية الاستخدام بمثابة اتفاقية عامة تحكم ضوابط التعامل بين المستخدم والتطبيق، وتسري على جميع الخدمات التي يقدمها التطبيق للمستخدم."
+
+الشروط العامة:
+يلتزم المستخدم بجميع الشروط الواردة في هذه الاتفاقية لضمان استعمال الخدمة، كما أن استمرار استعمال الخدمة يعتبر موافقة ضمنية من جهة المستخدم على بنود اتفاقية الاستخدام.
+يلتزم المستخدم بالحفاظ على سرية بيانات الحساب، والتي تحتوي على رقم الهوية والتي تمثل أسم المستخدم ورقم الجوال الرئيسي للمستخدم والذي يمثل كلمة المرور، كما يعتبر مسئولا مسئولية كاملة عن أي استعمال للخدمة يتم من خلال اسم المستخدم وكلمة السر الخاصة به سواء تم ذلك من طرفه أو من قبل آخرين وبدون أي مسؤولية على المؤسسة.
+وذلك لإن طريقة تفعيل الحساب الرسمية هي عن طريق أرسال رساله نصية تحتوي على كود تفعيل لجوال المستخدم والذي يمثل رقمه السري في التطبيق.
+"
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="credit_card_title">Credit Card</string>
+    <string name="credit_card_price">price</string>
+    <string name="credit_card_number_hint">CARD NUMBER</string>
+    <string name="credit_card_expiredate_hint">EXPIRY DATE</string>
+    <string name="credit_card_cvv_hint">CVV</string>
+    <string name="credit_card_name_hint">CARDHOLDER NAME</string>
+    <string name="credit_card_pay_btn">PAY</string>
+    <string name="payment_method">Payment Method</string>
+
+    <string-array name="payment_method_types">
+        <item>Choose Payment Method</item>
+        <item>Cash</item>
+        <item>Credit Card</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>Choose Subscription duration</item>
+        <item>1 month</item>
+        <item>2 month</item>
+        <item>3 month</item>
+        <item>4 month</item>
+        <item>5 month</item>
+        <item>6 month</item>
+    </string-array>
+
+    <string name="icon_attention_circled" translatable="false"></string>
+    <string name="icon_cancel_circled" translatable="false"></string>
+    <string name="icon_cc_amex" translatable="false"></string>
+    <string name="icon_cc_mada" translatable="false"></string>
+    <string name="icon_cc_mastercard" translatable="false"></string>
+    <string name="icon_cc_nps" translatable="false"></string>
+    <string name="icon_cc_visa" translatable="false"></string>
+    <string name="icon_credit_card" translatable="false"></string>
+    <string name="icon_left_circled" translatable="false"></string>
+    <string name="icon_ok" translatable="false"></string>
+    <string name="icon_ok_circled" translatable="false"></string>
+    <string name="pf_app_name">FortPaymentSDK</string>
+    <string name="pf_cancel_cvv_amex_length">\nCVV number must consist of <em>4 digits.</em></string>
+    <string name="pf_cancel_cvv_length">\nCVV number must consist of <em>3 digits.</em></string>
+    <string name="pf_cancel_exp_date_in_past">\nThe date entered is in the <em>Past!</em></string>
+    <string name="pf_cancel_exp_date_invalid">\nThe date entered is <em>Invalid!</em></string>
+    <string name="pf_cancel_payment_btn_no">NO</string>
+    <string name="pf_cancel_payment_btn_yes">YES</string>
+    <string name="pf_cancel_payment_msg">Cancel this payment?</string>
+    <string name="pf_cancel_required_field">\nRequired field; cannot be left empty</string>
+    <string name="pf_canceled_by_user">Transaction canceled by payer</string>
+    <string name="pf_card_number_hint">CARD NUMBER</string>
+    <string name="pf_cardholder_name_hint">CARDHOLDER NAME</string>
+    <string name="pf_cc_title_hint">Credit Card</string>
+    <string name="pf_cvv_hint">CVV</string>
+    <string name="pf_errors_card_number_amex_length">\nCredit Card number must consist of <em>15 digits.</em></string>
+    <string name="pf_errors_card_number_invalid">\nCard number is <em>invalid.</em></string>
+    <string name="pf_errors_card_number_length">\nCredit Card number must consist of <em>16 digits.</em></string>
+    <string name="pf_errors_card_number_mismatch_po">\nThe entered credit card type does not match the selected payment option.</string>
+    <string name="pf_expiry_date_hint">EXPIRY DATE</string>
+    <string name="pf_expiry_date_value">MM/YY</string>
+    <string name="pf_init_conn_hint">Init a secure connection...</string>
+    <string name="pf_no_back_tnx_processing">Your transaction is under processing, please wait</string>
+    <string name="pf_no_connection">no connection, please check the internet connection</string>
+    <string name="pf_pay_btn_hint">Pay</string>
+    <string name="pf_remember_me">Remember me</string>
+    <string name="pf_resp_page_failed">Failed</string>
+    <string name="pf_resp_page_great">Great</string>
+    <string name="pf_technical_problem">Technical problem</string>
+    <string name="pf_wifi_settings">Settings</string>
+
+
+</resources>

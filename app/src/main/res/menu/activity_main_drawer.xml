@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/txt_home"/>
+
+        <!--<item-->
+            <!--android:id="@+id/menu_wallet"-->
+            <!--android:icon="@drawable/ic_balance_wallet_black_24dp"-->
+            <!--android:title="@string/txt_wallet"/>-->
+
+        <item
+            android:id="@+id/menu_orders"
+            android:icon="@drawable/ic_orders_black_24dp"
+            android:title="@string/txt_orders"/>
+
+        <item
+            android:id="@+id/menu_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/title_notifications"/>
+
+        <item
+            android:id="@+id/menu_rate_app"
+            android:icon="@drawable/ic_rate_white_24dp"
+            android:title="@string/txt_rate_app"/>
+        <item
+            android:id="@+id/menu_share_app"
+            android:icon="@drawable/ic_share_share_24dp"
+            android:title="@string/txt_share_app"/>
+
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_info"
+            android:visible="false"
+            android:title="@string/txt_about"/>
+
+        <item
+            android:id="@+id/menu_language"
+            android:icon="@drawable/ic_lan"
+            android:title="@string/txt_language"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_log_out"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out"/>
+
+    </group>
+
+</menu>

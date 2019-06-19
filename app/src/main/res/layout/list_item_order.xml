@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="4dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtOrderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Home Cleaning service"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:id="@+id/relDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtOrderTitle"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/dateImg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_calendar_clock"
+                android:tint="@color/little_black"/>
+
+            <TextView
+                android:id="@+id/txtOrderDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@id/dateImg"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Saturday 24 sep 2017 "
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relDate"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/timeImg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_timer"
+                android:tint="@color/little_black"/>
+
+            <TextView
+                android:id="@+id/txtOrderTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@id/timeImg"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="12:00 pm"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/orderDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/relTime"
+            android:layout_marginTop="2dp"
+            android:paddingStart="8dp"
+            android:text="Duration : "
+            android:textSize="12sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/txtOrderDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relTime"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/orderDuration"
+            android:text="-"
+            android:textSize="12sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/txtOrderPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/relTime"
+            android:text="@string/txt_sar"
+            android:textSize="14sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/txtOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_toStartOf="@+id/imgOrderStatus"
+            android:text="Working"
+            android:textSize="14sp"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgOrderStatus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:padding="2dp"
+            android:src="@color/red"
+            android:text="Working"
+            android:textSize="14sp"
+            />
+
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/materialRate"
+            style="@style/Widget.MaterialRatingBar.RatingBar"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/imgOrderStatus"
+            android:layout_marginTop="4dp"/>
+
+        <RelativeLayout
+            android:id="@+id/relLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtOrderDuration"
+            android:layout_marginTop="2dp">
+
+            <ImageView
+                android:id="@+id/profileLocation"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_location"
+                android:tint="@color/little_black"/>
+
+            <TextView
+                android:id="@+id/txtUserLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@id/profileLocation"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/loading_text"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

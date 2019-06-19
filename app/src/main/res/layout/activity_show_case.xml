@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.alryada.etqan.ShowCaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtSelgon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginStart="36dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/txt_selgon"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+        <LinearLayout
+            android:id="@+id/linInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSelgon"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight=".5"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/steps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:text="خطوات اضافة طلب"
+                    android:textColor="@color/light_red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="4dp"
+                        android:src="@drawable/ic_location"
+                        android:tint="@color/light_red" />
+
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/img"
+                        android:text="@string/txt_detect_location"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <ImageView
+                        android:id="@+id/imgClock"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="4dp"
+                        android:src="@drawable/ic_timer"
+                        android:tint="@color/light_red" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/imgClock"
+                        android:text="@string/txt_detect_duration"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <ImageView
+                        android:id="@+id/imgDate"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="4dp"
+                        android:src="@drawable/ic_calendar_clock"
+                        android:tint="@color/light_red" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/imgDate"
+                        android:text="@string/txt_detect_days"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/steps"
+                    android:layout_margin="8dp">
+
+                    <ImageView
+                        android:id="@+id/imgTime"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="4dp"
+                        android:src="@drawable/ic_clock48"
+                        android:tint="@color/light_red" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/imgTime"
+                        android:text="@string/txt_detect_time"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight=".5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="@string/txt_prices"
+                        android:textColor="@color/light_red"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="@string/txt_for_prices"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="نحن ندعم"
+                        android:textColor="@color/light_red"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="@string/txt_support"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnEnterAPP"
+            android:layout_below="@+id/linInfo"
+            android:layout_margin="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/instgram"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="4dp"
+                android:src="@drawable/ic_instagram" />
+
+            <ImageView
+
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="4dp"
+                android:src="@drawable/ic_facebook" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEnterAPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="2dp"
+            android:background="@color/orange"
+            android:text="@string/txt_browse_app"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>
