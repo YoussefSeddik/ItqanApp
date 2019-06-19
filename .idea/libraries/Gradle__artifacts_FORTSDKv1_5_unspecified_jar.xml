@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:FORTSDKv1.5:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FORTSDKv1.5.aar/562bdbe4af3a554d5c427cb6d35aa659/jars/libs/fort_android_sdk_dependancies_v4.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FORTSDKv1.5.aar/562bdbe4af3a554d5c427cb6d35aa659/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FORTSDKv1.5.aar/562bdbe4af3a554d5c427cb6d35aa659/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
