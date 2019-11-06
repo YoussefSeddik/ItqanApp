@@ -11,10 +11,6 @@ import android.widget.TextView;
 import com.alryada.etqan.MakeOrderActivity;
 import com.alryada.etqan.R;
 
-/**
- * Created by Abd El-Sattar
- * on 3/12/2018.
- */
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     private String[] mDataset;
