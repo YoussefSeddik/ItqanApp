@@ -1,9 +1,5 @@
 package com.alryada.etqan.Helpers;
 
-/**
- * Created by Abd El-Sattar
- * on 1/25/2018.
- */
 
 public class Constants {
 
