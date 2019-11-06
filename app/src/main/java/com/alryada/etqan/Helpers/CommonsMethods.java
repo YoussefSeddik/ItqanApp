@@ -47,10 +47,7 @@ import java.util.Locale;
 
 import static com.alryada.etqan.Helpers.Constants.PREF_KEY;
 
-/**
- * Created by Satar
- * on 2/16/2017.
- */
+
 
 public class CommonsMethods {
 
