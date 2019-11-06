@@ -11,10 +11,6 @@ import android.widget.TextView;
 
 import com.alryada.etqan.R;
 
-/**
- * Created by Abdallah Rashad A on 4/13/2018.
- */
-
 public class SliderAdabter extends PagerAdapter {
 
     Context context ;
