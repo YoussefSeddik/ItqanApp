@@ -16,10 +16,7 @@ import com.google.firebase.messaging.RemoteMessage;
 import com.alryada.etqan.MainActivity;
 import com.alryada.etqan.R;
 
-/**
- * Created by Abd El-Sattar
- * on 3/26/2018.
- */
+
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
