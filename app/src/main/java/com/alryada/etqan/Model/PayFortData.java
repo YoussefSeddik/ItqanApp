@@ -3,9 +3,7 @@ package com.alryada.etqan.Model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by agh on 26/02/18.
- */
+
 
 public class PayFortData {
 
