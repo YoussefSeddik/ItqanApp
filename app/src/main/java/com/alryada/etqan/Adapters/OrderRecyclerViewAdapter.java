@@ -24,10 +24,7 @@ import butterknife.ButterKnife;
 import static com.alryada.etqan.Helpers.CommonsMethods.getDifferenceDate;
 import static com.alryada.etqan.Helpers.Constants.KEY_ORDER_ID;
 
-/**
- * Created by Abd El-Sattar
- * on 6/2/2017.
- */
+
 
 public class OrderRecyclerViewAdapter extends RecyclerView.Adapter<OrderRecyclerViewAdapter.OrderViewHolder> {
 
