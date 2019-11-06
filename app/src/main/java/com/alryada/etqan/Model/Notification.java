@@ -3,10 +3,6 @@ package com.alryada.etqan.Model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by Sattar
- * on 3/29/2018.
- */
 
 public class Notification {
 
