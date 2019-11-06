@@ -4,11 +4,6 @@ import android.app.Application;
 
 import com.alryada.etqan.Model.UserData;
 
-/**
- * Created by Abd El-Sattar
- * on 2/3/2018.
- */
-
 public class ApplicationClass extends Application {
 
     UserData userData;
