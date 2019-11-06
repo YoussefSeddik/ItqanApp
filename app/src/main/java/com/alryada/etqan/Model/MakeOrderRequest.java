@@ -1,9 +1,6 @@
 package com.alryada.etqan.Model;
 
-/**
- * Created by Abd El-Sattar
- * on 2/8/2018.
- */
+
 
 public class MakeOrderRequest {
 
