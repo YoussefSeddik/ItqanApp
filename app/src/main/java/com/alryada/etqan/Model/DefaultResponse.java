@@ -3,10 +3,6 @@ package com.alryada.etqan.Model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by Abd El-Sattar
- * on 2/3/2018.
- */
 
 public class DefaultResponse {
 
