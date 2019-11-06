@@ -19,10 +19,6 @@ import butterknife.ButterKnife;
 
 import static com.alryada.etqan.Helpers.Constants.KEY_ORDER_ID;
 
-/**
- * Created by Abd El-Sattar
- * on 6/2/2017.
- */
 
 public class NotificationsViewAdapter extends RecyclerView.Adapter<NotificationsViewAdapter.OrderViewHolder> {
 
